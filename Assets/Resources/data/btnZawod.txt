@@ -1,0 +1,202 @@
+Grafik
+Pracownik biurowy
+Urzędnik państwowy
+Lekarz
+Programista
+Programista PLC
+Ekonomista
+Programista baz danych
+Inżynier Środowiska
+Prawnik
+Webmaster
+Automatyk
+Laborant
+Tester aplikacji
+Dietetyk
+Koordynator robót budowlanych
+Spedytor
+Pedagog
+Kurator sądowy
+Analityk rynku
+Fakturzystka
+Technolog
+Tłumacz
+Doradca zawodowy
+Konstruktor
+Farmaceuta
+Architekt budownictwa
+Adwokat
+Agent celny
+Projektant IT
+Copywriter
+Księgowa
+Geodeta
+Administrator
+Recepcjonistka
+Przedstawiciel handlowy
+Pracownik socjalny
+Doradca finansowy
+Lektor
+Pilot wycieczek
+Trener
+Dziennikarz
+Agenta nieruchomości
+Handlowiec
+Notariusz
+Kierownik Magazynu
+Prezenter
+Rzeczoznawca
+Radca prawny
+Kosztorysant
+Telemarketer
+Doradca podatkowy
+Analityk systemów
+Nauczyciel
+Kominiarz
+Malarz
+Pisarz
+Aktor
+Ratownik
+Chirurg
+Piosenkarz
+Tancerz
+Informatyk
+Historyk
+Bibliotekarz
+Chemik
+Hydraulik
+Zegrmistrz
+Rzeźbiarz
+Skarbnik
+Stewardessa
+Marynarz
+Policjant
+Sprzątacz
+Kelner
+Kierowca
+Sprzedawca
+Sportowiec
+Pogodynka
+Mechanik
+Żołnierz
+Ksiądz
+Konserwator
+Elektryk
+Bankier
+Konsultant
+Fotograf
+Listonosz
+Ankieter
+Archeolog
+Archiwista
+Astronom
+Babcia klozetowa
+Barman
+Choreograf
+Detektyw
+Drwal
+Dyplomata
+Dżokej
+Grabarz
+Hostessa
+Hutnik
+Kasjer
+Kowboj
+Kosmonauta
+Kurier
+Leśniczy
+Motorniczy
+Niania
+Ochroniarz
+Pakowacz
+Plastyk
+Pokojówka
+Poganiacz
+Portier
+Psycholog
+Redaktor
+Rolnik
+Rybak
+Satyryk
+Służący
+Stajenny
+Strażak
+Sufler
+Szatniarz
+Szczurołap
+Taksówkarz
+Terapeuta
+Tłumacz
+Tokarz
+Weterynarz
+Żongler
+Cinkciarz
+Giermek
+Guwernantka
+Kat
+Skryba
+Kaskader
+Garncarz
+Introligator
+Kowal
+Cieśla
+Dekarz
+Fryzjer
+Grawer
+Złotnik
+Jubiler
+Kamieniarz
+Kosmetyczka
+Krawiec
+Kucharz
+Lutnik
+Murarz
+Nożownik
+Piekarz
+Pszczelarz
+Rzeźnik
+Stolarz
+Ślusarz
+Tapicer
+Tkacz
+Okulista
+Optyk
+Dentysta
+Podróżnik
+Górnik
+Coach
+Instruktor tańca
+Instruktor nauki jazdy
+Mediator
+Fizjoterapeuta
+Pielęgrniarz
+Logopeda
+Masażysta
+Psychiatra
+Biotechnolog
+Fizyk
+Nanotechnolog
+Mechatronik
+Stylista
+Operator maszyn
+Ogrodnik
+Duchowny
+Agent ubezpieczeniowy
+Ubezpieczyciel
+Naukowiec
+Anestezjolog
+Cukiernik
+Naukowiec
+Komornik
+Pracownik call center
+Spawacz
+Budowlaniec
+Kanar
+Śmieciarz
+Kanalarz
+Konduktor
+Maszynista
+Sekretarka
+Kamerzysta
+Konferansjer
+Szambonurek
