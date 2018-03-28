@@ -102,8 +102,8 @@ public class Game : MonoBehaviour {
 	
 	void FixedUpdate () {
         czas -= Time.deltaTime;
-        //ready = true;
-        //czolo.gameObject.SetActive(false);
+        ready = true;
+        czolo.gameObject.SetActive(false);
 
         //Rozpocznij odliczanie
         if (start == true && (Input.deviceOrientation == DeviceOrientation.LandscapeLeft || Input.deviceOrientation == DeviceOrientation.LandscapeRight))
