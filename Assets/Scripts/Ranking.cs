@@ -1,27 +1,33 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Ranking : MonoBehaviour {
+public class Ranking : MonoBehaviour
+{
 
     private static List<User> ranking = new List<User>();
     public Text[] userRanking = new Text[8];
+    public string[] lines;
 
     private AudioSource source;
     public AudioClip tomenu;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         Screen.orientation = ScreenOrientation.Portrait;
+        ranking.Clear();
         ReadString();
         ReadUsers();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             ToMenu("Menu");
@@ -29,19 +35,15 @@ public class Ranking : MonoBehaviour {
     }
     public void ToMenu(string scene)
     {
-        source.PlayOneShot(tomenu);
-        {
-            scene = "Menu";
-            SceneManager.LoadScene(scene);
-        }
+        scene = "Menu";
+        SceneManager.LoadScene(scene);
     }
 
     //Wczytywanie listy rankingowej
     void ReadString()
     {
-        string path = "data/ranking";
-        TextAsset asset = Resources.Load(path) as TextAsset;
-        var lines = asset.text.Split("\n"[0]);
+        string path = "/ranking.txt";
+        lines = File.ReadAllLines(Application.persistentDataPath + path);
         foreach (string line in lines)
         {
             int score;
@@ -59,7 +61,7 @@ public class Ranking : MonoBehaviour {
     void ReadUsers()
     {
         ranking.Sort();
-        for(int i=0; i<8;i++)
+        for (int i = 0; i < 8 && i < lines.Length; i++)
         {
             userRanking[i].text = ranking[i].Name + " score: " + ranking[i].Score;
         }

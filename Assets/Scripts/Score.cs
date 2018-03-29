@@ -93,12 +93,17 @@ public class Score : MonoBehaviour
     }
     void updateRanking()
     {
-        string path = "data/ranking";
+        string path = "/ranking.txt";
         string score = poprawne.ToString();
         string user = "Ola";
         int rank = 0;
-        TextAsset asset = Resources.Load(path) as TextAsset;
-        var lines = asset.text.Split("\n"[0]);
+        ranking.Clear();
+        Boolean newUser = true;
+        if (!File.Exists(Application.persistentDataPath + path))
+        {
+            File.Create(Application.persistentDataPath + path);
+        }
+        var lines = File.ReadAllLines(Application.persistentDataPath + path);
         foreach (string line in lines)
         {
             var person = line.Split('#');
@@ -109,12 +114,17 @@ public class Score : MonoBehaviour
                 {
                     rank += poprawne;
                     rank += 100;
+                    newUser = false;
                 }
                 string x = person[0] + "#" + rank.ToString();
                 ranking.Add(x);
             }
         }
-        File.WriteAllLines(Application.dataPath+"/Resources/"+path+".txt", ranking.ToArray());
+        if(newUser)
+        {
+            ranking.Add(user + "#" + poprawne.ToString());
+        }
+        File.WriteAllLines(Application.persistentDataPath + path, ranking.ToArray());
     }
 
 }
